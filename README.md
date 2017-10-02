@@ -11,19 +11,14 @@ A Django Application that allows you to download torrents directly to your Googl
 
 ## Running the code on your local system
 Right now, the code must be cloned in a specific directory to run it. (/home/nikhil/Programs/Django/gdriveTorrent)
-cd into the cloned folder.
-Add executable permissions to downloaded.py file by typing:
-    sudo chmod +x downloaded.py
-Initialise the gdrive utility by typing:
-    gdrive init
-Open the url specified in gdrive and give appropriate permissions. Then, copy the access token from your browser and paste it into the terminal.
-Create database:
-    Env/bin/python gdriveTorrent/manage.py migrate
-Create a superuser:
-    Env/bin/python gdriveTorrent/manage.py createsuperuser
-Run the django development server:
-    Env/bin/python gdriveTorrent/manage.py runserver 0.0.0.0:8000
-Open the url: localhost:8000 in your browser and login with the admin credentials you just created.
+cd into the cloned folder.  
+Add executable permissions to downloaded.py file by typing: `sudo chmod +x downloaded.py`  
+Initialise the gdrive utility by typing: `gdrive init`  
+Open the url specified in gdrive and give appropriate permissions. Then, copy the access token from your browser and paste it into the terminal.  
+Create database: `Env/bin/python gdriveTorrent/manage.py migrate`  
+Create a superuser: `Env/bin/python gdriveTorrent/manage.py createsuperuser`  
+Run the django development server: `Env/bin/python gdriveTorrent/manage.py runserver 0.0.0.0:8000`  
+Open the url: `localhost:8000` in your browser and login with the admin credentials you just created.  
 
 ## Note
 This application is currently in development. There might be a lot of bugs.
